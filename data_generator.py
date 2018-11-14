@@ -101,9 +101,6 @@ class DataGenerator(keras.utils.Sequence):
         validate_ids = id[(train_ids_num + 1):]
 
         partition['train'] = train_ids
-        partition['validadion'] = validate_ids
-
+        partition['validation'] = validate_ids
 
         return partition
-
-
